@@ -1,0 +1,49 @@
+/* CSS files add styling rules to your content */
+
+body {
+  background-image: linear-gradient(#e6fff9,#e6fff9);
+  font-family: "Alata", "Helvetica Neue", helvetica, arial, sans-serif;
+  color: #1fdbb2;
+  margin: 2em;
+  text-align: center;
+}
+
+h1 {
+  font-style: "Alata", italic;
+  color: #1fdbb2;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+.question {
+  display: flex;
+  margin-top: 1em;
+  justify-content:center
+    
+}
+
+.answer-choice img {
+  height: 10em;
+}
+
+img  {
+  
+  max-height: 250px;
+  margin-bottom: 1em;
+  border: 15px solid #e6fff9;
+}
+
+.container {
+  flex-flow: column wrap;
+}
+
+
+
+
+
+button{
+  background-color: #aaf0d1;
+  border-color: #FFFFFF;
+}
